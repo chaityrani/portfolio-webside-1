@@ -1,0 +1,42 @@
+ 
+
+ body{
+    font-family: 'lato', sans-serif;
+ }
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+.text-primary{
+    color: #fd6e0a;
+}
+
+.btn-primary{
+    background-color: #fd6e0a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+}
+
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
